@@ -9,7 +9,7 @@ console.log(numbers);
 let printsLength = parseInt(prompt("Quanti numeri devo stampare partendo dall'ultimo?"));
 let difference = numbersLength - printsLength;
 
-if(difference < 0){
+while(difference < 0){
     printsLength = parseInt(prompt("Non posso togliere dall'array più elementi di quanti non ne abbia!"));
     difference = numbersLength - printsLength;
 }

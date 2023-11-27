@@ -16,4 +16,9 @@ if(difference < 0){
 
 let prints = numbers.slice(difference);
 
+//WASN'T SURE IF I HAD TO PRINT THE WHOLE SECOND ARRAY OR IT'S NUMBERS SEPARATELY.
+//DECIDED THAT THE WHOLE ARRAY LOOKED PRETTIER IN THE CONSOLE. 
+//for(let i=0; i<printsLength; i++){
+//    console.log(prints[i]);
+//}
 console.log(prints);
